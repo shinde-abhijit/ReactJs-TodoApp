@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Sono&display=swap');
+
+body{
+  background:  rgb(0, 0, 0);
+  color: #fff !important;
+  font-family: 'Ubuntu';
+  font-size: 20px;
+}
+
+input[type="text"]{
+  background: transparent;
+  color: #fff;
+  text-indent: 10px;
+}
+
+input[type="text"]:focus{
+  background: transparent;
+  color: #fff;
+}
+
+.ulListItems{
+  border: 1px solid orangered;
+  border-radius: 20px;
+}
+::placeholder{
+  text-indent: 10px;
+}
+.mainDiv{
+  background-color: #000000;
+  box-sizing: border-box;
+  padding: 40px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  box-shadow: 0 0 10px rgb(0, 213, 255);
+}
